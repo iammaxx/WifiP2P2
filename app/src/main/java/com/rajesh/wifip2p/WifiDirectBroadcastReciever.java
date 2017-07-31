@@ -30,7 +30,7 @@ public class WifiDirectBroadcastReciever extends BroadcastReceiver implements Wi
         this.mActivity = activity;
     }
 
-
+    //SADL
     @Override
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
